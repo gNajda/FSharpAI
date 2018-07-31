@@ -1,0 +1,15 @@
+﻿60,czekoladowe,40,pies,krotki,labrador retriever
+55,czarne,20,pies,krotki,amstaff
+25,popielate,10,suka,szorstki,terier
+55,zolte,30,suka,krotki,labrador retriever
+25,biale,5,pies,dlugi,shih tzu
+60,brazowe,40,pies,krotki,owczarek niemiecki
+25,popielate,5,pies,szorstki,terier
+55,czarne,30,suka,dlugi,owczarek niemiecki
+50,biale,20,suka,gladki,amstaff
+25,biale,5,pies,dlugi,shih tzu
+25,biale,5,suka,krotki,shih tzu
+30,czarne,10,pies,szorstki,terier
+60,czekoladowe,40,pies,krotki,labrador retriever
+50,brazowe,20,suka,gladki,owczarek niemiecki
+50,brazowe,20,suka,gladki,amstaff
