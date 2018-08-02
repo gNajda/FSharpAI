@@ -14,7 +14,9 @@ let main argv =
 
     let aa = new DataMining.Data.SimpleDataTable(File.ReadLines filePath |> fun rows -> seq {for row in rows -> Seq.ofArray (row.Split ",")})
 
-    let classes = RoughSet.calculateApproximations aa [0;1] RoughSet.ApproximationType.Lower
+    let classes = RoughSet.calculateApproximation aa [0;1] RoughSet.ApproximationType.Lower
+
+    let attributes = RoughSet.calculatePrecisionOfApproximation aa [0;1]
 
     printfn "Hello World from F#!"
     0
