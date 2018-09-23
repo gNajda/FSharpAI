@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Data.fs" />
+    <Compile Include="RoughSet_Test2.fs" />
+    <Compile Include="DataTypes.fs" />
+    <Compile Include="RoughSet_Test.fs" />
     <Compile Include="RoughSet.fs" />
   </ItemGroup>
 

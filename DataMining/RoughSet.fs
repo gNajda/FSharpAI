@@ -94,7 +94,3 @@ module RoughSet =
         let right = rules.Length |> float
 
         System.Math.Round(left/right, 3)
-
-    let test (ruleTable:RuleTable) (attIndexes:int list) =
-        let rules = getSpecifiedRules ruleTable attIndexes
-        let attributeNames = ruleTable.AttributeNames
