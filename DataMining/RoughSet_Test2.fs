@@ -34,8 +34,8 @@ module RoughSet_Test2 =
         let getUniqueRules rules = compareAndFilter basicCondition rules
 
         let getNonUniqueRules rules = 
-            let notFilter rule = basicCondition rule >> not
-            compareAndFilter notFilter rules
+            let notCondition rule = basicCondition rule >> not
+            compareAndFilter notCondition rules
 
         extractRulesByAttributes rules attr |>
         (fun rules -> 
